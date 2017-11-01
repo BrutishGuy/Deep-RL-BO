@@ -1,0 +1,562 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Arulkumaran, Deisenroth, Brundage, and
+  Bharath}{Arulkumaran et~al\mbox{.}}{2017}]%
+        {arulkumaran2017brief}
+\bibfield{author}{\bibinfo{person}{Kai Arulkumaran},
+  \bibinfo{person}{Marc~Peter Deisenroth}, \bibinfo{person}{Miles Brundage},
+  {and} \bibinfo{person}{Anil~Anthony Bharath}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{A brief survey of deep reinforcement learning}.
+\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1708.05866\/}}
+  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bergstra and Bengio}{Bergstra and
+  Bengio}{2012}]%
+        {bergstra_random_2012}
+\bibfield{author}{\bibinfo{person}{James Bergstra} {and}
+  \bibinfo{person}{Yoshua Bengio}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Random {Search} for {Hyper}-parameter
+  {Optimization}}.
+\newblock \bibinfo{journal}{{\em J. Mach. Learn. Res.\/}} \bibinfo{volume}{13},
+  \bibinfo{number}{1} (\bibinfo{date}{Feb.} \bibinfo{year}{2012}),
+  \bibinfo{pages}{281--305}.
+\newblock
+\showISSN{1532-4435}
+\showURL{%
+\url{http://dl.acm.org/citation.cfm?id=2503308.2188395}}
+
+
+\bibitem[\protect\citeauthoryear{Bergstra, Komer, Eliasmith, and
+  Warde-Farley}{Bergstra et~al\mbox{.}}{2014}]%
+        {bergstra_preliminary_2014}
+\bibfield{author}{\bibinfo{person}{James Bergstra}, \bibinfo{person}{Brent
+  Komer}, \bibinfo{person}{Chris Eliasmith}, {and} \bibinfo{person}{David
+  Warde-Farley}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Preliminary evaluation of hyperopt algorithms on
+  {HPOLib}}. In \bibinfo{booktitle}{{\em {ICML} workshop on {AutoML}}}.
+\newblock
+\showURL{%
+\url{http://ai2-s2-pdfs.s3.amazonaws.com/0da5/366fb41f66827c89144e5a949cc0e7e27d47.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Bergstra, Komer, Eliasmith, Yamins, and
+  Cox}{Bergstra et~al\mbox{.}}{2015}]%
+        {bergstra_hyperopt:_2015}
+\bibfield{author}{\bibinfo{person}{James Bergstra}, \bibinfo{person}{Brent
+  Komer}, \bibinfo{person}{Chris Eliasmith}, \bibinfo{person}{Dan Yamins},
+  {and} \bibinfo{person}{David~D. Cox}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Hyperopt: a {Python} library for model selection
+  and hyperparameter optimization}.
+\newblock \bibinfo{journal}{{\em Comput. Sci. Disc.\/}} \bibinfo{volume}{8},
+  \bibinfo{number}{1} (\bibinfo{year}{2015}), \bibinfo{pages}{014008}.
+\newblock
+\showISSN{1749-4699}
+\showDOI{%
+\url{https://doi.org/10.1088/1749-4699/8/1/014008}}
+
+
+\bibitem[\protect\citeauthoryear{Bergstra, Yamins, and Cox}{Bergstra
+  et~al\mbox{.}}{2013}]%
+        {bergstra_making_2013}
+\bibfield{author}{\bibinfo{person}{J. Bergstra}, \bibinfo{person}{D. Yamins},
+  {and} \bibinfo{person}{D.~D. Cox}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Making a {Science} of {Model} {Search}:
+  {Hyperparameter} {Optimization} in {Hundreds} of {Dimensions} for {Vision}
+  {Architectures}}. In \bibinfo{booktitle}{{\em Proceedings of the 30th
+  {International} {Conference} on {International} {Conference} on {Machine}
+  {Learning} - {Volume} 28}} {\em (\bibinfo{series}{{ICML}'13})}.
+  \bibinfo{publisher}{JMLR.org}, \bibinfo{address}{Atlanta, GA, USA},
+  \bibinfo{pages}{I--115--I--123}.
+\newblock
+\showURL{%
+\url{http://dl.acm.org/citation.cfm?id=3042817.3042832}}
+
+
+\bibitem[\protect\citeauthoryear{Bergstra, Bardenet, Bengio, and
+  Kégl}{Bergstra et~al\mbox{.}}{2011}]%
+        {bergstra_algorithms_2011}
+\bibfield{author}{\bibinfo{person}{James~S. Bergstra}, \bibinfo{person}{Rémi
+  Bardenet}, \bibinfo{person}{Yoshua Bengio}, {and} \bibinfo{person}{Balázs
+  Kégl}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Algorithms for {Hyper}-{Parameter} {Optimization}}.
+\newblock In \bibinfo{booktitle}{{\em Advances in {Neural} {Information}
+  {Processing} {Systems} 24}},
+  \bibfield{editor}{\bibinfo{person}{J.~Shawe-Taylor}, \bibinfo{person}{R.~S.
+  Zemel}, \bibinfo{person}{P.~L. Bartlett}, \bibinfo{person}{F.~Pereira}, {and}
+  \bibinfo{person}{K.~Q. Weinberger}} (Eds.). \bibinfo{publisher}{Curran
+  Associates, Inc.}, \bibinfo{pages}{2546--2554}.
+\newblock
+\showURL{%
+\url{http://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Bischl, Kerschke, Kotthoff, Lindauer,
+  Malitsky, Fréchette, Hoos, Hutter, Leyton-Brown, Tierney, and
+  Vanschoren}{Bischl et~al\mbox{.}}{2016}]%
+        {bischl_aslib:_2016}
+\bibfield{author}{\bibinfo{person}{Bernd Bischl}, \bibinfo{person}{Pascal
+  Kerschke}, \bibinfo{person}{Lars Kotthoff}, \bibinfo{person}{Marius
+  Lindauer}, \bibinfo{person}{Yuri Malitsky}, \bibinfo{person}{Alexandre
+  Fréchette}, \bibinfo{person}{Holger Hoos}, \bibinfo{person}{Frank Hutter},
+  \bibinfo{person}{Kevin Leyton-Brown}, \bibinfo{person}{Kevin Tierney}, {and}
+  \bibinfo{person}{Joaquin Vanschoren}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{ASlib}: {A} benchmark library for algorithm
+  selection}.
+\newblock \bibinfo{journal}{{\em Artificial Intelligence\/}}
+  \bibinfo{volume}{237} (\bibinfo{date}{Aug.} \bibinfo{year}{2016}),
+  \bibinfo{pages}{41--58}.
+\newblock
+\showISSN{0004-3702}
+\showDOI{%
+\url{https://doi.org/10.1016/j.artint.2016.04.003}}
+
+
+\bibitem[\protect\citeauthoryear{Brochu, Cora, and de~Freitas}{Brochu
+  et~al\mbox{.}}{2010a}]%
+        {brochu_tutorial_2010}
+\bibfield{author}{\bibinfo{person}{Eric Brochu}, \bibinfo{person}{Vlad~M.
+  Cora}, {and} \bibinfo{person}{Nando de Freitas}.}
+  \bibinfo{year}{2010}\natexlab{a}.
+\newblock \showarticletitle{A {Tutorial} on {Bayesian} {Optimization} of
+  {Expensive} {Cost} {Functions}, with {Application} to {Active} {User}
+  {Modeling} and {Hierarchical} {Reinforcement} {Learning}}.
+\newblock \bibinfo{journal}{{\em arXiv:1012.2599 [cs]\/}} (\bibinfo{date}{Dec.}
+  \bibinfo{year}{2010}).
+\newblock
+\showURL{%
+\url{http://arxiv.org/abs/1012.2599}}
+\newblock
+\shownote{arXiv: 1012.2599.}
+
+
+\bibitem[\protect\citeauthoryear{Brochu, Cora, and De~Freitas}{Brochu
+  et~al\mbox{.}}{2010b}]%
+        {brochu2010tutorial}
+\bibfield{author}{\bibinfo{person}{Eric Brochu}, \bibinfo{person}{Vlad~M Cora},
+  {and} \bibinfo{person}{Nando De~Freitas}.} \bibinfo{year}{2010}\natexlab{b}.
+\newblock \showarticletitle{A tutorial on Bayesian optimization of expensive
+  cost functions, with application to active user modeling and hierarchical
+  reinforcement learning}.
+\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1012.2599\/}}
+  (\bibinfo{year}{2010}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chen, Hoffman, Colmenarejo, Denil, Lillicrap,
+  and de~Freitas}{Chen et~al\mbox{.}}{2016}]%
+        {chen_learning_2016}
+\bibfield{author}{\bibinfo{person}{Yutian Chen}, \bibinfo{person}{Matthew~W.
+  Hoffman}, \bibinfo{person}{Sergio~Gomez Colmenarejo}, \bibinfo{person}{Misha
+  Denil}, \bibinfo{person}{Timothy~P. Lillicrap}, {and} \bibinfo{person}{Nando
+  de Freitas}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Learning to {Learn} for {Global} {Optimization} of
+  {Black} {Box} {Functions}}.
+\newblock \bibinfo{journal}{{\em arXiv:1611.03824 [cs, stat]\/}}
+  (\bibinfo{date}{Nov.} \bibinfo{year}{2016}).
+\newblock
+\showURL{%
+\url{http://arxiv.org/abs/1611.03824}}
+\newblock
+\shownote{arXiv: 1611.03824.}
+
+
+\bibitem[\protect\citeauthoryear{Dewancker, McCourt, Clark, Hayes, Johnson, and
+  Ke}{Dewancker et~al\mbox{.}}{2016}]%
+        {dewancker_stratified_2016}
+\bibfield{author}{\bibinfo{person}{Ian Dewancker}, \bibinfo{person}{Michael
+  McCourt}, \bibinfo{person}{Scott Clark}, \bibinfo{person}{Patrick Hayes},
+  \bibinfo{person}{Alexandra Johnson}, {and} \bibinfo{person}{George Ke}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{A {Stratified} {Analysis} of {Bayesian}
+  {Optimization} {Methods}}.
+\newblock \bibinfo{journal}{{\em arXiv:1603.09441 [cs, stat]\/}}
+  (\bibinfo{date}{March} \bibinfo{year}{2016}).
+\newblock
+\showURL{%
+\url{http://arxiv.org/abs/1603.09441}}
+\newblock
+\shownote{arXiv: 1603.09441.}
+
+
+\bibitem[\protect\citeauthoryear{Feurer, Klein, Eggensperger, Springenberg,
+  Blum, and Hutter}{Feurer et~al\mbox{.}}{2015a}]%
+        {feurer_efficient_2015}
+\bibfield{author}{\bibinfo{person}{Matthias Feurer}, \bibinfo{person}{Aaron
+  Klein}, \bibinfo{person}{Katharina Eggensperger},
+  \bibinfo{person}{Jost~Tobias Springenberg}, \bibinfo{person}{Manuel Blum},
+  {and} \bibinfo{person}{Frank Hutter}.} \bibinfo{year}{2015}\natexlab{a}.
+\newblock \showarticletitle{Efficient and {Robust} {Automated} {Machine}
+  {Learning}}. In \bibinfo{booktitle}{{\em Proceedings of the 28th
+  {International} {Conference} on {Neural} {Information} {Processing}
+  {Systems}}} {\em (\bibinfo{series}{{NIPS}'15})}. \bibinfo{publisher}{MIT
+  Press}, \bibinfo{address}{Cambridge, MA, USA}, \bibinfo{pages}{2755--2763}.
+\newblock
+\showURL{%
+\url{http://dl.acm.org/citation.cfm?id=2969442.2969547}}
+
+
+\bibitem[\protect\citeauthoryear{Feurer, Klein, Eggensperger, Springenberg,
+  Blum, and Hutter}{Feurer et~al\mbox{.}}{2015b}]%
+        {feurer_methods_2015}
+\bibfield{author}{\bibinfo{person}{Matthias Feurer}, \bibinfo{person}{Aaron
+  Klein}, \bibinfo{person}{Katharina Eggensperger}, \bibinfo{person}{Jost~T
+  Springenberg}, \bibinfo{person}{Manuel Blum}, {and} \bibinfo{person}{Frank
+  Hutter}.} \bibinfo{year}{2015}\natexlab{b}.
+\newblock \showarticletitle{Methods for improving bayesian optimization for
+  {AutoML}}. In \bibinfo{booktitle}{{\em {AutoML} {Workshop}, {International}
+  {Conference} on {Machine} {Learning}}}, Vol.~\bibinfo{volume}{2015}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Franceschi, Donini, Frasconi, and
+  Pontil}{Franceschi et~al\mbox{.}}{2017}]%
+        {franceschi_forward_2017}
+\bibfield{author}{\bibinfo{person}{Luca Franceschi}, \bibinfo{person}{Michele
+  Donini}, \bibinfo{person}{Paolo Frasconi}, {and}
+  \bibinfo{person}{Massimiliano Pontil}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Forward and {Reverse} {Gradient}-{Based}
+  {Hyperparameter} {Optimization}}.
+\newblock \bibinfo{journal}{{\em arXiv:1703.01785 [stat]\/}}
+  (\bibinfo{date}{March} \bibinfo{year}{2017}).
+\newblock
+\showURL{%
+\url{http://arxiv.org/abs/1703.01785}}
+\newblock
+\shownote{arXiv: 1703.01785.}
+
+
+\bibitem[\protect\citeauthoryear{Hoffman, Shahriari, and Freitas}{Hoffman
+  et~al\mbox{.}}{2014}]%
+        {hoffman_correlation_2014}
+\bibfield{author}{\bibinfo{person}{Matthew Hoffman}, \bibinfo{person}{Bobak
+  Shahriari}, {and} \bibinfo{person}{Nando Freitas}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{On correlation and budget constraints in
+  model-based bandit optimization with application to automatic machine
+  learning}. In \bibinfo{booktitle}{{\em Proceedings of the {Seventeenth}
+  {International} {Conference} on {Artificial} {Intelligence} and
+  {Statistics}}} {\em (\bibinfo{series}{Proceedings of {Machine} {Learning}
+  {Research}})}, \bibfield{editor}{\bibinfo{person}{Samuel Kaski} {and}
+  \bibinfo{person}{Jukka Corander}} (Eds.), Vol.~\bibinfo{volume}{33}.
+  \bibinfo{publisher}{PMLR}, \bibinfo{address}{Reykjavik, Iceland},
+  \bibinfo{pages}{365--374}.
+\newblock
+\showURL{%
+\url{http://proceedings.mlr.press/v33/hoffman14.html}}
+
+
+\bibitem[\protect\citeauthoryear{Klein, Falkner, Bartels, Hennig, and
+  Hutter}{Klein et~al\mbox{.}}{2016}]%
+        {klein_fast_2016}
+\bibfield{author}{\bibinfo{person}{Aaron Klein}, \bibinfo{person}{Stefan
+  Falkner}, \bibinfo{person}{Simon Bartels}, \bibinfo{person}{Philipp Hennig},
+  {and} \bibinfo{person}{Frank Hutter}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Fast {Bayesian} {Optimization} of {Machine}
+  {Learning} {Hyperparameters} on {Large} {Datasets}}.
+\newblock \bibinfo{journal}{{\em arXiv:1605.07079 [cs, stat]\/}}
+  (\bibinfo{date}{May} \bibinfo{year}{2016}).
+\newblock
+\showURL{%
+\url{http://arxiv.org/abs/1605.07079}}
+\newblock
+\shownote{arXiv: 1605.07079.}
+
+
+\bibitem[\protect\citeauthoryear{Li, Jamieson, DeSalvo, Rostamizadeh, and
+  Talwalkar}{Li et~al\mbox{.}}{2016}]%
+        {li_hyperband:_2016}
+\bibfield{author}{\bibinfo{person}{Lisha Li}, \bibinfo{person}{Kevin Jamieson},
+  \bibinfo{person}{Giulia DeSalvo}, \bibinfo{person}{Afshin Rostamizadeh},
+  {and} \bibinfo{person}{Ameet Talwalkar}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Hyperband: {A} {Novel} {Bandit}-{Based} {Approach}
+  to {Hyperparameter} {Optimization}}.
+\newblock \bibinfo{journal}{{\em arXiv:1603.06560 [cs, stat]\/}}
+  (\bibinfo{date}{March} \bibinfo{year}{2016}).
+\newblock
+\showURL{%
+\url{http://arxiv.org/abs/1603.06560}}
+\newblock
+\shownote{arXiv: 1603.06560.}
+
+
+\bibitem[\protect\citeauthoryear{Li}{Li}{2017}]%
+        {li2017deep}
+\bibfield{author}{\bibinfo{person}{Yuxi Li}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Deep reinforcement learning: An overview}.
+\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1701.07274\/}}
+  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lorenz, Hampshire, and Leech}{Lorenz
+  et~al\mbox{.}}{2017}]%
+        {lorenz_neuroadaptive_2017}
+\bibfield{author}{\bibinfo{person}{Romy Lorenz}, \bibinfo{person}{Adam
+  Hampshire}, {and} \bibinfo{person}{Robert Leech}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Neuroadaptive {Bayesian} {Optimization} and
+  {Hypothesis} {Testing}}.
+\newblock \bibinfo{journal}{{\em Trends in Cognitive Sciences\/}}
+  \bibinfo{volume}{21}, \bibinfo{number}{3} (\bibinfo{date}{March}
+  \bibinfo{year}{2017}), \bibinfo{pages}{155--167}.
+\newblock
+\showISSN{13646613}
+\showDOI{%
+\url{https://doi.org/10.1016/j.tics.2017.01.006}}
+
+
+\bibitem[\protect\citeauthoryear{Loshchilov and Hutter}{Loshchilov and
+  Hutter}{2016}]%
+        {loshchilov_cma-es_2016}
+\bibfield{author}{\bibinfo{person}{Ilya Loshchilov} {and}
+  \bibinfo{person}{Frank Hutter}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{CMA}-{ES} for {Hyperparameter} {Optimization} of
+  {Deep} {Neural} {Networks}}.
+\newblock \bibinfo{journal}{{\em arXiv:1604.07269 [cs]\/}}
+  (\bibinfo{date}{April} \bibinfo{year}{2016}).
+\newblock
+\showURL{%
+\url{http://arxiv.org/abs/1604.07269}}
+\newblock
+\shownote{arXiv: 1604.07269.}
+
+
+\bibitem[\protect\citeauthoryear{Luo}{Luo}{2016}]%
+        {luo_review_2016}
+\bibfield{author}{\bibinfo{person}{Gang Luo}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{A review of automatic selection methods for machine
+  learning algorithms and hyper-parameter values}.
+\newblock \bibinfo{journal}{{\em Netw Model Anal Health Inform Bioinforma\/}}
+  \bibinfo{volume}{5}, \bibinfo{number}{1} (\bibinfo{date}{Dec.}
+  \bibinfo{year}{2016}), \bibinfo{pages}{18}.
+\newblock
+\showISSN{2192-6662, 2192-6670}
+\showDOI{%
+\url{https://doi.org/10.1007/s13721-016-0125-6}}
+
+
+\bibitem[\protect\citeauthoryear{Malkomes, Schaff, and Garnett}{Malkomes
+  et~al\mbox{.}}{2016}]%
+        {malkomes_bayesian_2016}
+\bibfield{author}{\bibinfo{person}{Gustavo Malkomes}, \bibinfo{person}{Charles
+  Schaff}, {and} \bibinfo{person}{Roman Garnett}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Bayesian optimization for automated model
+  selection}. In \bibinfo{booktitle}{{\em Advances in {Neural} {Information}
+  {Processing} {Systems}}}. \bibinfo{pages}{2900--2908}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mendoza, Klein, Feurer, Springenberg, and
+  Hutter}{Mendoza et~al\mbox{.}}{2016}]%
+        {mendoza_towards_2016}
+\bibfield{author}{\bibinfo{person}{Hector Mendoza}, \bibinfo{person}{Aaron
+  Klein}, \bibinfo{person}{Matthias Feurer}, \bibinfo{person}{Jost~Tobias
+  Springenberg}, {and} \bibinfo{person}{Frank Hutter}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Towards {Automatically}-{Tuned} {Neural}
+  {Networks}}. In \bibinfo{booktitle}{{\em Proceedings of the {Workshop} on
+  {Automatic} {Machine} {Learning}}} {\em (\bibinfo{series}{Proceedings of
+  {Machine} {Learning} {Research}})}, \bibfield{editor}{\bibinfo{person}{Frank
+  Hutter}, \bibinfo{person}{Lars Kotthoff}, {and} \bibinfo{person}{Joaquin
+  Vanschoren}} (Eds.), Vol.~\bibinfo{volume}{64}. \bibinfo{publisher}{PMLR},
+  \bibinfo{address}{New York, New York, USA}, \bibinfo{pages}{58--65}.
+\newblock
+\showURL{%
+\url{http://proceedings.mlr.press/v64/mendoza_towards_2016.html}}
+
+
+\bibitem[\protect\citeauthoryear{Shahriari, Swersky, Wang, Adams, and
+  Freitas}{Shahriari et~al\mbox{.}}{2016}]%
+        {shahriari_taking_2016}
+\bibfield{author}{\bibinfo{person}{B. Shahriari}, \bibinfo{person}{K. Swersky},
+  \bibinfo{person}{Z. Wang}, \bibinfo{person}{R.~P. Adams}, {and}
+  \bibinfo{person}{N.~de Freitas}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Taking the {Human} {Out} of the {Loop}: {A}
+  {Review} of {Bayesian} {Optimization}}.
+\newblock \bibinfo{journal}{{\it Proc. IEEE}} \bibinfo{volume}{104},
+  \bibinfo{number}{1} (\bibinfo{date}{Jan.} \bibinfo{year}{2016}),
+  \bibinfo{pages}{148--175}.
+\newblock
+\showISSN{0018-9219}
+\showDOI{%
+\url{https://doi.org/10.1109/JPROC.2015.2494218}}
+
+
+\bibitem[\protect\citeauthoryear{Snoek, Larochelle, and Adams}{Snoek
+  et~al\mbox{.}}{2012}]%
+        {snoek_practical_2012}
+\bibfield{author}{\bibinfo{person}{Jasper Snoek}, \bibinfo{person}{Hugo
+  Larochelle}, {and} \bibinfo{person}{Ryan~P Adams}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Practical {Bayesian} {Optimization} of {Machine}
+  {Learning} {Algorithms}}.
+\newblock In \bibinfo{booktitle}{{\em Advances in {Neural} {Information}
+  {Processing} {Systems} 25}}, \bibfield{editor}{\bibinfo{person}{F.~Pereira},
+  \bibinfo{person}{C.~J.~C. Burges}, \bibinfo{person}{L.~Bottou}, {and}
+  \bibinfo{person}{K.~Q. Weinberger}} (Eds.). \bibinfo{publisher}{Curran
+  Associates, Inc.}, \bibinfo{pages}{2951--2959}.
+\newblock
+\showURL{%
+\url{http://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Snoek, Rippel, Swersky, Kiros, Satish,
+  Sundaram, Patwary, Prabhat, and Adams}{Snoek et~al\mbox{.}}{2015}]%
+        {snoek_scalable_2015}
+\bibfield{author}{\bibinfo{person}{Jasper Snoek}, \bibinfo{person}{Oren
+  Rippel}, \bibinfo{person}{Kevin Swersky}, \bibinfo{person}{Ryan Kiros},
+  \bibinfo{person}{Nadathur Satish}, \bibinfo{person}{Narayanan Sundaram},
+  \bibinfo{person}{Md~Mostofa~Ali Patwary}, \bibinfo{person}{Prabhat}, {and}
+  \bibinfo{person}{Ryan~P. Adams}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Scalable {Bayesian} {Optimization} {Using} {Deep}
+  {Neural} {Networks}}.
+\newblock \bibinfo{journal}{{\em arXiv:1502.05700 [stat]\/}}
+  (\bibinfo{date}{Feb.} \bibinfo{year}{2015}).
+\newblock
+\showURL{%
+\url{http://arxiv.org/abs/1502.05700}}
+\newblock
+\shownote{arXiv: 1502.05700.}
+
+
+\bibitem[\protect\citeauthoryear{Son, Gupta, and Tan}{Son
+  et~al\mbox{.}}{2016}]%
+        {son_bayesian_2016}
+\bibfield{author}{\bibinfo{person}{Jaemin Son}, \bibinfo{person}{Samarth
+  Gupta}, {and} \bibinfo{person}{Gary Tan}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Bayesian {Optimization} in {High} {Dimensional}
+  {Input} {Space}}. In \bibinfo{booktitle}{{\em Proceedings of the 9th {EAI}
+  {International} {Conference} on {Simulation} {Tools} and {Techniques}}} {\em
+  (\bibinfo{series}{{SIMUTOOLS}'16})}. \bibinfo{publisher}{ICST (Institute for
+  Computer Sciences, Social-Informatics and Telecommunications Engineering)},
+  \bibinfo{address}{ICST, Brussels, Belgium, Belgium}, \bibinfo{pages}{18--27}.
+\newblock
+\showISBNx{978-1-63190-120-1}
+\showURL{%
+\url{http://dl.acm.org/citation.cfm?id=3021426.3021430}}
+
+
+\bibitem[\protect\citeauthoryear{Springenberg, Klein, Falkner, and
+  Hutter}{Springenberg et~al\mbox{.}}{2016}]%
+        {springenberg_bayesian_2016}
+\bibfield{author}{\bibinfo{person}{Jost~Tobias Springenberg},
+  \bibinfo{person}{Aaron Klein}, \bibinfo{person}{Stefan Falkner}, {and}
+  \bibinfo{person}{Frank Hutter}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Bayesian {Optimization} with {Robust} {Bayesian}
+  {Neural} {Networks}}.
+\newblock In \bibinfo{booktitle}{{\em Advances in {Neural} {Information}
+  {Processing} {Systems} 29}}, \bibfield{editor}{\bibinfo{person}{D.~D. Lee},
+  \bibinfo{person}{M.~Sugiyama}, \bibinfo{person}{U.~V. Luxburg},
+  \bibinfo{person}{I.~Guyon}, {and} \bibinfo{person}{R.~Garnett}} (Eds.).
+  \bibinfo{publisher}{Curran Associates, Inc.}, \bibinfo{pages}{4134--4142}.
+\newblock
+\showURL{%
+\url{http://papers.nips.cc/paper/6117-bayesian-optimization-with-robust-bayesian-neural-networks.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Thornton, Hutter, Hoos, and
+  Leyton-Brown}{Thornton et~al\mbox{.}}{2013}]%
+        {thornton_auto-weka:_2013}
+\bibfield{author}{\bibinfo{person}{Chris Thornton}, \bibinfo{person}{Frank
+  Hutter}, \bibinfo{person}{Holger~H. Hoos}, {and} \bibinfo{person}{Kevin
+  Leyton-Brown}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Auto-{WEKA}: {Combined} {Selection} and
+  {Hyperparameter} {Optimization} of {Classification} {Algorithms}}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 19th {ACM} {SIGKDD}
+  {International} {Conference} on {Knowledge} {Discovery} and {Data} {Mining}}}
+  {\em (\bibinfo{series}{{KDD} '13})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{847--855}.
+\newblock
+\showISBNx{978-1-4503-2174-7}
+\showDOI{%
+\url{https://doi.org/10.1145/2487575.2487629}}
+
+
+\bibitem[\protect\citeauthoryear{Wang, Hutter, Zoghi, Matheson, and
+  Freitas}{Wang et~al\mbox{.}}{2016}]%
+        {wang_bayesian_2016}
+\bibfield{author}{\bibinfo{person}{Ziyu Wang}, \bibinfo{person}{Frank Hutter},
+  \bibinfo{person}{Masrour Zoghi}, \bibinfo{person}{David Matheson}, {and}
+  \bibinfo{person}{Nando~de Freitas}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Bayesian {Optimization} in a {Billion} {Dimensions}
+  via {Random} {Embeddings}}.
+\newblock \bibinfo{journal}{{\em Journal of Artificial Intelligence
+  Research\/}} (\bibinfo{year}{2016}).
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1613/jair.4806}}
+
+
+\bibitem[\protect\citeauthoryear{Yao, Cai, Bu, and Chen}{Yao
+  et~al\mbox{.}}{2017}]%
+        {yao_pre-training_2017}
+\bibfield{author}{\bibinfo{person}{Chengwei Yao}, \bibinfo{person}{Deng Cai},
+  \bibinfo{person}{Jiajun Bu}, {and} \bibinfo{person}{Gencai Chen}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Pre-training the deep generative models with
+  adaptive hyperparameter optimization}.
+\newblock \bibinfo{journal}{{\em Neurocomputing\/}}  \bibinfo{volume}{247}
+  (\bibinfo{date}{July} \bibinfo{year}{2017}), \bibinfo{pages}{144--155}.
+\newblock
+\showISSN{0925-2312}
+\showDOI{%
+\url{https://doi.org/10.1016/j.neucom.2017.03.058}}
+
+
+\bibitem[\protect\citeauthoryear{Zhang, Sohn, Villegas, Pan, and Lee}{Zhang
+  et~al\mbox{.}}{2015}]%
+        {zhang_improving_2015}
+\bibfield{author}{\bibinfo{person}{Y. Zhang}, \bibinfo{person}{K. Sohn},
+  \bibinfo{person}{R. Villegas}, \bibinfo{person}{G. Pan}, {and}
+  \bibinfo{person}{H. Lee}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Improving object detection with deep convolutional
+  networks via {Bayesian} optimization and structured prediction}. In
+  \bibinfo{booktitle}{{\em 2015 {IEEE} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition} ({CVPR})}}. \bibinfo{pages}{249--258}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1109/CVPR.2015.7298621}}
+
+
+\end{thebibliography}

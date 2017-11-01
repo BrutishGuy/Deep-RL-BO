@@ -1,0 +1,444 @@
+
+@incollection{snoek_practical_2012,
+	title = {Practical {Bayesian} {Optimization} of {Machine} {Learning} {Algorithms}},
+	url = {http://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf},
+	abstract = {The use of machine learning algorithms frequently involves careful tuning of learning parameters and model hyperparameters. Unfortunately, this tuning is often a “black art” requiring expert experience, rules of thumb, or sometimes brute-force search. There is therefore great appeal for automatic approaches that can optimize the performance of any given learning algorithm to the problem at hand. In this work, we consider this problem through the framework of Bayesian optimization, in which a learning algorithm’s generalization performance is modeled as a sample from a Gaussian process (GP). We show that certain choices for the nature of the GP, such as the type of kernel and the treatment of its hyperparameters, can play a crucial role in obtaining a good optimizer that can achieve expert-level performance. We describe new algorithms that take into account the variable cost (duration) of learning algorithm experiments and that can leverage the presence of multiple cores for parallel experimentation. We show that these proposed algorithms improve on previous automatic procedures and can reach or surpass human expert-level optimization for many algorithms including Latent Dirichlet Allocation, Structured SVMs and convolutional neural networks.},
+	urldate = {2017-04-30},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} 25},
+	publisher = {Curran Associates, Inc.},
+	author = {Snoek, Jasper and Larochelle, Hugo and Adams, Ryan P},
+	editor = {Pereira, F. and Burges, C. J. C. and Bottou, L. and Weinberger, K. Q.},
+	year = {2012},
+	pages = {2951--2959},
+	file = {NIPS Snapshort:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\IUDSII88\\4522-practical-bayesian-optimization-of-machine-learning-algorithms.html:text/html;Snoek et al. - 2012 - Practical Bayesian Optimization of Machine Learnin.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\SQPUAUF5\\Snoek et al. - 2012 - Practical Bayesian Optimization of Machine Learnin.pdf:application/pdf}
+}
+
+
+
+
+@article{shahriari_taking_2016,
+	title = {Taking the {Human} {Out} of the {Loop}: {A} {Review} of {Bayesian} {Optimization}},
+	volume = {104},
+	issn = {0018-9219},
+	shorttitle = {Taking the {Human} {Out} of the {Loop}},
+	doi = {10.1109/JPROC.2015.2494218},
+	abstract = {Big Data applications are typically associated with systems involving large numbers of users, massive complex software systems, and large-scale heterogeneous computing and storage architectures. The construction of such systems involves many distributed design choices. The end products (e.g., recommendation systems, medical analysis tools, real-time game engines, speech recognizers) thus involve many tunable configuration parameters. These parameters are often specified and hard-coded into the software by various developers or teams. If optimized jointly, these parameters can result in significant improvements. Bayesian optimization is a powerful tool for the joint optimization of design choices that is gaining great popularity in recent years. It promises greater automation so as to increase both product quality and human productivity. This review paper introduces Bayesian optimization, highlights some of its methodological aspects, and showcases a wide range of applications.},
+	number = {1},
+	journal = {Proceedings of the IEEE},
+	author = {Shahriari, B. and Swersky, K. and Wang, Z. and Adams, R. P. and Freitas, N. de},
+	month = jan,
+	year = {2016},
+	keywords = {Bayesian optimization, Bayes methods, Big Data, Big data application, Decision making, Design of experiments, Genomes, genomic medicine, human productivity, large-scale heterogeneous computing, Linear programming, massive complex software system, optimisation, Optimization, product quality, response surface methodology, Statistical analysis, statistical learning, storage allocation, storage architecture},
+	pages = {148--175},
+	file = {IEEE Xplore Abstract Record:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\UQMMG47C\\7352306.html:text/html;Shahriari et al_2016_Taking the Human Out of the Loop.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\8NHI7XWS\\Shahriari et al_2016_Taking the Human Out of the Loop.pdf:application/pdf}
+}
+
+@article{klein_fast_2016,
+	title = {Fast {Bayesian} {Optimization} of {Machine} {Learning} {Hyperparameters} on {Large} {Datasets}},
+	url = {http://arxiv.org/abs/1605.07079},
+	abstract = {Bayesian optimization has become a successful tool for hyperparameter optimization of machine learning algorithms, such as support vector machines or deep neural networks. Despite its success, for large datasets, training and validating a single configuration often takes hours, days, or even weeks, which limits the achievable performance. To accelerate hyperparameter optimization, we propose a generative model for the validation error as a function of training set size, which is learned during the optimization process and allows exploration of preliminary configurations on small subsets, by extrapolating to the full dataset. We construct a Bayesian optimization procedure, dubbed Fabolas, which models loss and training time as a function of dataset size and automatically trades off high information gain about the global optimum against computational cost. Experiments optimizing support vector machines and deep neural networks show that Fabolas often finds high-quality solutions 10 to 100 times faster than other state-of-the-art Bayesian optimization methods or the recently proposed bandit strategy Hyperband.},
+	urldate = {2017-05-01},
+	journal = {arXiv:1605.07079 [cs, stat]},
+	author = {Klein, Aaron and Falkner, Stefan and Bartels, Simon and Hennig, Philipp and Hutter, Frank},
+	month = may,
+	year = {2016},
+	note = {arXiv: 1605.07079},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Learning, Statistics - Machine Learning},
+	file = {arXiv.org Snapshot:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\3X25U2NS\\1605.html:text/html;Klein et al_2016_Fast Bayesian Optimization of Machine Learning Hyperparameters on Large Datasets.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\UWWDRKKI\\Klein et al_2016_Fast Bayesian Optimization of Machine Learning Hyperparameters on Large Datasets.pdf:application/pdf}
+}
+
+@inproceedings{bergstra_making_2013,
+	address = {Atlanta, GA, USA},
+	series = {{ICML}'13},
+	title = {Making a {Science} of {Model} {Search}: {Hyperparameter} {Optimization} in {Hundreds} of {Dimensions} for {Vision} {Architectures}},
+	shorttitle = {Making a {Science} of {Model} {Search}},
+	url = {http://dl.acm.org/citation.cfm?id=3042817.3042832},
+	abstract = {Many computer vision algorithms depend on configuration settings that are typically hand-tuned in the course of evaluating the algorithm for a particular data set. While such parameter tuning is often presented as being incidental to the algorithm, correctly setting these parameter choices is frequently critical to realizing a method's full potential. Compounding matters, these parameters often must be re-tuned when the algorithm is applied to a new problem domain, and the tuning process itself often depends on personal experience and intuition in ways that are hard to quantify or describe. Since the performance of a given technique depends on both the fundamental quality of the algorithm and the details of its tuning, it is sometimes difficult to know whether a given technique is genuinely better, or simply better tuned. In this work, we propose a meta-modeling approach to support automated hyperparameter optimization, with the goal of providing practical tools that replace hand-tuning with a reproducible and unbiased optimization process. Our approach is to expose the underlying expression graph of how a performance metric (e.g. classification accuracy on validation examples) is computed from hyperparameters that govern not only how individual processing steps are applied, but even which processing steps are included. A hyperparameter optimization algorithm transforms this graph into a program for optimizing that performance metric. Our approach yields state of the art results on three disparate computer vision problems: a face-matching verification task (LFW), a face identification task (PubFig83) and an object recognition task (CIFAR-10), using a single broad class of feed-forward vision architectures.},
+	urldate = {2017-05-01},
+	booktitle = {Proceedings of the 30th {International} {Conference} on {International} {Conference} on {Machine} {Learning} - {Volume} 28},
+	publisher = {JMLR.org},
+	author = {Bergstra, J. and Yamins, D. and Cox, D. D.},
+	year = {2013},
+	pages = {I--115--I--123}
+}
+
+@article{loshchilov_cma-es_2016,
+	title = {{CMA}-{ES} for {Hyperparameter} {Optimization} of {Deep} {Neural} {Networks}},
+	url = {http://arxiv.org/abs/1604.07269},
+	abstract = {Hyperparameters of deep neural networks are often optimized by grid search, random search or Bayesian optimization. As an alternative, we propose to use the Covariance Matrix Adaptation Evolution Strategy (CMA-ES), which is known for its state-of-the-art performance in derivative-free optimization. CMA-ES has some useful invariance properties and is friendly to parallel evaluations of solutions. We provide a toy example comparing CMA-ES and state-of-the-art Bayesian optimization algorithms for tuning the hyperparameters of a convolutional neural network for the MNIST dataset on 30 GPUs in parallel.},
+	urldate = {2017-05-04},
+	journal = {arXiv:1604.07269 [cs]},
+	author = {Loshchilov, Ilya and Hutter, Frank},
+	month = apr,
+	year = {2016},
+	note = {arXiv: 1604.07269},
+	keywords = {Computer Science - Learning, Computer Science - Neural and Evolutionary Computing},
+	file = {arXiv.org Snapshot:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\3ARBGDUS\\1604.html:text/html;Loshchilov_Hutter_2016_CMA-ES for Hyperparameter Optimization of Deep Neural Networks.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\KF23D6JK\\Loshchilov_Hutter_2016_CMA-ES for Hyperparameter Optimization of Deep Neural Networks.pdf:application/pdf}
+}
+
+
+@inproceedings{thornton_auto-weka:_2013,
+	address = {New York, NY, USA},
+	series = {{KDD} '13},
+	title = {Auto-{WEKA}: {Combined} {Selection} and {Hyperparameter} {Optimization} of {Classification} {Algorithms}},
+	isbn = {978-1-4503-2174-7},
+	shorttitle = {Auto-{WEKA}},
+	url = {http://doi.acm.org/10.1145/2487575.2487629},
+	doi = {10.1145/2487575.2487629},
+	abstract = {Many different machine learning algorithms exist; taking into account each algorithm's hyperparameters, there is a staggeringly large number of possible alternatives overall. We consider the problem of simultaneously selecting a learning algorithm and setting its hyperparameters, going beyond previous work that attacks these issues separately. We show that this problem can be addressed by a fully automated approach, leveraging recent innovations in Bayesian optimization. Specifically, we consider a wide range of feature selection techniques (combining 3 search and 8 evaluator methods) and all classification approaches implemented in WEKA's standard distribution, spanning 2 ensemble methods, 10 meta-methods, 27 base classifiers, and hyperparameter settings for each classifier. On each of 21 popular datasets from the UCI repository, the KDD Cup 09, variants of the MNIST dataset and CIFAR-10, we show classification performance often much better than using standard selection and hyperparameter optimization methods. We hope that our approach will help non-expert users to more effectively identify machine learning algorithms and hyperparameter settings appropriate to their applications, and hence to achieve improved performance.},
+	urldate = {2017-05-04},
+	booktitle = {Proceedings of the 19th {ACM} {SIGKDD} {International} {Conference} on {Knowledge} {Discovery} and {Data} {Mining}},
+	publisher = {ACM},
+	author = {Thornton, Chris and Hutter, Frank and Hoos, Holger H. and Leyton-Brown, Kevin},
+	year = {2013},
+	keywords = {hyperparameter optimization, model selection, weka},
+	pages = {847--855}
+}
+
+
+@article{bischl_aslib:_2016,
+	title = {{ASlib}: {A} benchmark library for algorithm selection},
+	volume = {237},
+	issn = {0004-3702},
+	shorttitle = {{ASlib}},
+	url = {http://www.sciencedirect.com/science/article/pii/S0004370216300388},
+	doi = {10.1016/j.artint.2016.04.003},
+	abstract = {The task of algorithm selection involves choosing an algorithm from a set of algorithms on a per-instance basis in order to exploit the varying performance of algorithms over a set of instances. The algorithm selection problem is attracting increasing attention from researchers and practitioners in AI. Years of fruitful applications in a number of domains have resulted in a large amount of data, but the community lacks a standard format or repository for this data. This situation makes it difficult to share and compare different approaches effectively, as is done in other, more established fields. It also unnecessarily hinders new researchers who want to work in this area. To address this problem, we introduce a standardized format for representing algorithm selection scenarios and a repository that contains a growing number of data sets from the literature. Our format has been designed to be able to express a wide variety of different scenarios. To demonstrate the breadth and power of our platform, we describe a study that builds and evaluates algorithm selection models through a common interface. The results display the potential of algorithm selection to achieve significant performance improvements across a broad range of problems and algorithms.},
+	urldate = {2017-05-04},
+	journal = {Artificial Intelligence},
+	author = {Bischl, Bernd and Kerschke, Pascal and Kotthoff, Lars and Lindauer, Marius and Malitsky, Yuri and Fréchette, Alexandre and Hoos, Holger and Hutter, Frank and Leyton-Brown, Kevin and Tierney, Kevin and Vanschoren, Joaquin},
+	month = aug,
+	year = {2016},
+	keywords = {Algorithm selection, Empirical performance estimation, Machine learning},
+	pages = {41--58},
+	file = {ScienceDirect Snapshot:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\RTGNPGCM\\S0004370216300388.html:text/html}
+}
+
+@article{luo_review_2016,
+	title = {A review of automatic selection methods for machine learning algorithms and hyper-parameter values},
+	volume = {5},
+	issn = {2192-6662, 2192-6670},
+	url = {https://link.springer.com/article/10.1007/s13721-016-0125-6},
+	doi = {10.1007/s13721-016-0125-6},
+	abstract = {Machine learning studies automatic algorithms that improve themselves through experience. It is widely used for analyzing and extracting value from large biomedical data sets, or “big biomedical data,” advancing biomedical research, and improving healthcare. Before a machine learning model is trained, the user of a machine learning software tool typically must manually select a machine learning algorithm and set one or more model parameters termed hyper-parameters. The algorithm and hyper-parameter values used can greatly impact the resulting model’s performance, but their selection requires special expertise as well as many labor-intensive manual iterations. To make machine learning accessible to layman users with limited computing expertise, computer science researchers have proposed various automatic selection methods for algorithms and/or hyper-parameter values for a given supervised machine learning problem. This paper reviews these methods, identifies several of their limitations in the big biomedical data environment, and provides preliminary thoughts on how to address these limitations. These findings establish a foundation for future research on automatically selecting algorithms and hyper-parameter values for analyzing big biomedical data.},
+	language = {en},
+	number = {1},
+	urldate = {2017-05-04},
+	journal = {Netw Model Anal Health Inform Bioinforma},
+	author = {Luo, Gang},
+	month = dec,
+	year = {2016},
+	pages = {18},
+	file = {Snapshot:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\CRAN4SRS\\s13721-016-0125-6.html:text/html}
+}
+
+@inproceedings{feurer_methods_2015,
+	title = {Methods for improving bayesian optimization for {AutoML}},
+	volume = {2015},
+	booktitle = {{AutoML} {Workshop}, {International} {Conference} on {Machine} {Learning}},
+	author = {Feurer, Matthias and Klein, Aaron and Eggensperger, Katharina and Springenberg, Jost T and Blum, Manuel and Hutter, Frank},
+	year = {2015}
+}
+
+
+
+@article{franceschi_forward_2017,
+	title = {Forward and {Reverse} {Gradient}-{Based} {Hyperparameter} {Optimization}},
+	url = {http://arxiv.org/abs/1703.01785},
+	abstract = {We study two procedures (reverse-mode and forward-mode) for computing the gradient of the validation error with respect to the hyperparameters of any iterative learning algorithm such as stochastic gradient descent. These procedures mirror two methods of computing gradients for recurrent neural networks and have different trade-offs in terms of running time and space requirements. Our formulation of the reverse-mode procedure is linked to previous work by Maclaurin et al. [2015] but does not require reversible dynamics. The forward-mode procedure is suitable for real-time hyperparameter updates, which may significantly speed up hyperparameter optimization on large datasets. We present experiments on data cleaning and on learning task interactions. We also present one large-scale experiment where the use of previous gradient-based methods would be prohibitive.},
+	urldate = {2017-05-04},
+	journal = {arXiv:1703.01785 [stat]},
+	author = {Franceschi, Luca and Donini, Michele and Frasconi, Paolo and Pontil, Massimiliano},
+	month = mar,
+	year = {2017},
+	note = {arXiv: 1703.01785},
+	keywords = {Statistics - Machine Learning},
+	file = {arXiv.org Snapshot:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\WWVSQVTB\\1703.html:text/html;Franceschi et al_2017_Forward and Reverse Gradient-Based Hyperparameter Optimization.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\JXB5F236\\Franceschi et al_2017_Forward and Reverse Gradient-Based Hyperparameter Optimization.pdf:application/pdf}
+}
+
+@article{yao_pre-training_2017,
+	title = {Pre-training the deep generative models with adaptive hyperparameter optimization},
+	volume = {247},
+	issn = {0925-2312},
+	url = {http://www.sciencedirect.com/science/article/pii/S092523121730591X},
+	doi = {10.1016/j.neucom.2017.03.058},
+	abstract = {The performance of many machine learning algorithms depends crucially on the hyperparameter settings, especially in Deep Learning. Manually tuning the hyperparameters is laborious and time consuming. To address this issue, Bayesian optimization (BO) methods and their extensions have been proposed to optimize the hyperparameters automatically. However, they still suffer from highly computational expense when applying to deep generative models (DGMs) due to their strategy of the black-box function optimization. This paper provides a new hyperparameter optimization procedure at the pre-training phase of the DGMs, where we avoid combining all layers as one black-box function by taking advantage of the layer-by-layer learning strategy. Following this procedure, we are able to optimize multiple hyperparameters in an adaptive way by using Gaussian process. In contrast to the traditional BO methods, which mainly focus on the supervised models, the pre-training procedure is unsupervised where there is no validation error can be used. To alleviate this problem, this paper proposes a new holdout loss, the free energy gap, which takes into account both factors of the model fitting and over-fitting. The empirical evaluations demonstrate that our method not only speeds up the process of hyperparameter optimization, but also improves the performances of DGMs significantly in both the supervised and unsupervised learning tasks.},
+	urldate = {2017-05-04},
+	journal = {Neurocomputing},
+	author = {Yao, Chengwei and Cai, Deng and Bu, Jiajun and Chen, Gencai},
+	month = jul,
+	year = {2017},
+	keywords = {Contrastive divergence, Deep generative model, hyperparameter optimization, Sequential model-based optimization},
+	pages = {144--155},
+	file = {ScienceDirect Snapshot:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\I2FCF5A3\\S092523121730591X.html:text/html}
+}
+
+@inproceedings{feurer_efficient_2015,
+	address = {Cambridge, MA, USA},
+	series = {{NIPS}'15},
+	title = {Efficient and {Robust} {Automated} {Machine} {Learning}},
+	url = {http://dl.acm.org/citation.cfm?id=2969442.2969547},
+	abstract = {The success of machine learning in a broad range of applications has led to an ever-growing demand for machine learning systems that can be used off the shelf by non-experts. To be effective in practice, such systems need to automatically choose a good algorithm and feature preprocessing steps for a new dataset at hand, and also set their respective hyperparameters. Recent work has started to tackle this automated machine learning (AutoML) problem with the help of efficient Bayesian optimization methods. Building on this, we introduce a robust new AutoML system based on scikit-learn (using 15 classifiers, 14 feature preprocessing methods, and 4 data preprocessing methods, giving rise to a structured hypothesis space with 110 hyperparameters). This system, which we dub AUTO-SKLEARN, improves on existing AutoML methods by automatically taking into account past performance on similar datasets, and by constructing ensembles from the models evaluated during the optimization. Our system won the first phase of the ongoing ChaLearn AutoML challenge, and our comprehensive analysis on over 100 diverse datasets shows that it substantially outperforms the previous state of the art in AutoML. We also demonstrate the performance gains due to each of our contributions and derive insights into the effectiveness of the individual components of AUTO-SKLEARN.},
+	urldate = {2017-05-04},
+	booktitle = {Proceedings of the 28th {International} {Conference} on {Neural} {Information} {Processing} {Systems}},
+	publisher = {MIT Press},
+	author = {Feurer, Matthias and Klein, Aaron and Eggensperger, Katharina and Springenberg, Jost Tobias and Blum, Manuel and Hutter, Frank},
+	year = {2015},
+	pages = {2755--2763}
+}
+
+@incollection{springenberg_bayesian_2016,
+	title = {Bayesian {Optimization} with {Robust} {Bayesian} {Neural} {Networks}},
+	url = {http://papers.nips.cc/paper/6117-bayesian-optimization-with-robust-bayesian-neural-networks.pdf},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} 29},
+	publisher = {Curran Associates, Inc.},
+	author = {Springenberg, Jost Tobias and Klein, Aaron and Falkner, Stefan and Hutter, Frank},
+	editor = {Lee, D. D. and Sugiyama, M. and Luxburg, U. V. and Guyon, I. and Garnett, R.},
+	year = {2016},
+	pages = {4134--4142}
+}
+
+@article{li_hyperband:_2016,
+	title = {Hyperband: {A} {Novel} {Bandit}-{Based} {Approach} to {Hyperparameter} {Optimization}},
+	shorttitle = {Hyperband},
+	url = {http://arxiv.org/abs/1603.06560},
+	abstract = {Performance of machine learning algorithms depends critically on identifying a good set of hyperparameters. While current methods offer efficiencies by adaptively choosing new configurations to train, an alternative strategy is to adaptively allocate resources across the selected configurations. We formulate hyperparameter optimization as a pure-exploration non-stochastic infinitely many armed bandit problem where a predefined resource like iterations, data samples, or features is allocated to randomly sampled configurations. We introduce Hyperband for this framework and analyze its theoretical properties, providing several desirable guarantees. Furthermore, we compare Hyperband with state-of-the-art methods on a suite of hyperparameter optimization problems. We observe that Hyperband provides five times to thirty times speedup over state-of-the-art Bayesian optimization algorithms on a variety of deep-learning and kernel-based learning problems.},
+	urldate = {2017-05-04},
+	journal = {arXiv:1603.06560 [cs, stat]},
+	author = {Li, Lisha and Jamieson, Kevin and DeSalvo, Giulia and Rostamizadeh, Afshin and Talwalkar, Ameet},
+	month = mar,
+	year = {2016},
+	note = {arXiv: 1603.06560},
+	keywords = {Computer Science - Learning, Statistics - Machine Learning},
+	file = {arXiv.org Snapshot:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\9EVAR7QU\\1603.html:text/html;Li et al_2016_Hyperband.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\CWPFEKAT\\Li et al_2016_Hyperband.pdf:application/pdf}
+}
+
+@article{chen_learning_2016,
+	title = {Learning to {Learn} for {Global} {Optimization} of {Black} {Box} {Functions}},
+	url = {http://arxiv.org/abs/1611.03824},
+	abstract = {We present a learning to learn approach for training recurrent neural networks to perform black-box global optimization. In the meta-learning phase we use a large set of smooth target functions to learn a recurrent neural network (RNN) optimizer, which is either a long-short term memory network or a differentiable neural computer. After learning, the RNN can be applied to learn policies in reinforcement learning, as well as other black-box learning tasks, including continuous correlated bandits and experimental design. We compare this approach to Bayesian optimization, with emphasis on the issues of computation speed, horizon length, and exploration-exploitation trade-offs.},
+	urldate = {2017-05-04},
+	journal = {arXiv:1611.03824 [cs, stat]},
+	author = {Chen, Yutian and Hoffman, Matthew W. and Colmenarejo, Sergio Gomez and Denil, Misha and Lillicrap, Timothy P. and de Freitas, Nando},
+	month = nov,
+	year = {2016},
+	note = {arXiv: 1611.03824},
+	keywords = {Computer Science - Learning, Statistics - Machine Learning},
+	file = {arXiv.org Snapshot:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\CGFBP4FW\\1611.html:text/html;Chen et al_2016_Learning to Learn for Global Optimization of Black Box Functions.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\G63BHS6G\\Chen et al_2016_Learning to Learn for Global Optimization of Black Box Functions.pdf:application/pdf}
+}
+
+@inproceedings{son_bayesian_2016,
+	address = {ICST, Brussels, Belgium, Belgium},
+	series = {{SIMUTOOLS}'16},
+	title = {Bayesian {Optimization} in {High} {Dimensional} {Input} {Space}},
+	isbn = {978-1-63190-120-1},
+	url = {http://dl.acm.org/citation.cfm?id=3021426.3021430},
+	abstract = {Many simulations include design parameters that influence the terminal outcome. Often, our aim is to optimize these design parameters through recursive simulation in order to gain the outcome in favor of our interests. However, unlike usual objective functions, simulation cannot be directly expressed in analytic forms. Thus, conventional optimization methods such as gradient descent and convex optimization do not apply straightforwardly. Also, simulation usually incurs high computational costs. Therefore, less number of function evaluations is preferred during the optimization process. We present Bayesian Optimization (BO) to deal with such challenges in simulation-based optimization. BO constructs surrogates of the true function and evaluates the most promising points based on the surrogates. Also, we consider issues in applying BO to problems with high dimensional input space. Dealing with high dimensional input space is especially critical in simulation-based optimization if there exist multiple design parameters. In this paper, we discuss related theory and demonstrate experiments of BO on analytic functions.},
+	urldate = {2017-05-04},
+	booktitle = {Proceedings of the 9th {EAI} {International} {Conference} on {Simulation} {Tools} and {Techniques}},
+	publisher = {ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering)},
+	author = {Son, Jaemin and Gupta, Samarth and Tan, Gary},
+	year = {2016},
+	keywords = {Bayesian optimization, Experiment Design, Optimization in High Dimensional Input Space, Simulation-based Optimization},
+	pages = {18--27}
+}
+
+@article{snoek_scalable_2015,
+	title = {Scalable {Bayesian} {Optimization} {Using} {Deep} {Neural} {Networks}},
+	url = {http://arxiv.org/abs/1502.05700},
+	abstract = {Bayesian optimization is an effective methodology for the global optimization of functions with expensive evaluations. It relies on querying a distribution over functions defined by a relatively cheap surrogate model. An accurate model for this distribution over functions is critical to the effectiveness of the approach, and is typically fit using Gaussian processes (GPs). However, since GPs scale cubically with the number of observations, it has been challenging to handle objectives whose optimization requires many evaluations, and as such, massively parallelizing the optimization. In this work, we explore the use of neural networks as an alternative to GPs to model distributions over functions. We show that performing adaptive basis function regression with a neural network as the parametric form performs competitively with state-of-the-art GP-based approaches, but scales linearly with the number of data rather than cubically. This allows us to achieve a previously intractable degree of parallelism, which we apply to large scale hyperparameter optimization, rapidly finding competitive models on benchmark object recognition tasks using convolutional networks, and image caption generation using neural language models.},
+	urldate = {2017-05-04},
+	journal = {arXiv:1502.05700 [stat]},
+	author = {Snoek, Jasper and Rippel, Oren and Swersky, Kevin and Kiros, Ryan and Satish, Nadathur and Sundaram, Narayanan and Patwary, Md Mostofa Ali and Prabhat and Adams, Ryan P.},
+	month = feb,
+	year = {2015},
+	note = {arXiv: 1502.05700},
+	keywords = {Statistics - Machine Learning},
+	file = {arXiv.org Snapshot:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\B6WAECRD\\1502.html:text/html;Snoek et al_2015_Scalable Bayesian Optimization Using Deep Neural Networks.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\U5FCK8WJ\\Snoek et al_2015_Scalable Bayesian Optimization Using Deep Neural Networks.pdf:application/pdf}
+}
+
+@inproceedings{zhang_improving_2015,
+	title = {Improving object detection with deep convolutional networks via {Bayesian} optimization and structured prediction},
+	doi = {10.1109/CVPR.2015.7298621},
+	abstract = {Object detection systems based on the deep convolutional neural network (CNN) have recently made ground-breaking advances on several object detection benchmarks. While the features learned by these high-capacity neural networks are discriminative for categorization, inaccurate localization is still a major source of error for detection. Building upon high-capacity CNN architectures, we address the localization problem by 1) using a search algorithm based on Bayesian optimization that sequentially proposes candidate regions for an object bounding box, and 2) training the CNN with a structured loss that explicitly penalizes the localization inaccuracy. In experiments, we demonstrate that each of the proposed methods improves the detection performance over the baseline method on PASCAL VOC 2007 and 2012 datasets. Furthermore, two methods are complementary and significantly outperform the previous state-of-the-art when combined.},
+	booktitle = {2015 {IEEE} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} ({CVPR})},
+	author = {Zhang, Y. and Sohn, K. and Villegas, R. and Pan, G. and Lee, H.},
+	month = jun,
+	year = {2015},
+	keywords = {Bayesian optimization, Bayes methods, CNN, convolution, deep convolutional neural network, feature learning, learning (artificial intelligence), neural nets, object detection, optimisation, Optimization, Proposals, Search problems, Training, Yttrium},
+	pages = {249--258},
+	file = {IEEE Xplore Abstract Record:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\ZVSJ6FWP\\7298621.html:text/html}
+}
+
+@article{wang_bayesian_2016,
+	title = {Bayesian {Optimization} in a {Billion} {Dimensions} via {Random} {Embeddings}},
+	url = {http://jair.org/papers/paper4806.html},
+	doi = {10.1613/jair.4806},
+	language = {eng},
+	urldate = {2017-05-04},
+	journal = {Journal of Artificial Intelligence Research},
+	author = {Wang, Ziyu and Hutter, Frank and Zoghi, Masrour and Matheson, David and Freitas, Nando de},
+	year = {2016}
+}
+
+@article{li2017deep,
+	title={Deep reinforcement learning: An overview},
+	author={Li, Yuxi},
+	journal={arXiv preprint arXiv:1701.07274},
+	year={2017}
+}
+
+@inproceedings{malkomes_bayesian_2016,
+	title = {Bayesian optimization for automated model selection},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems}},
+	author = {Malkomes, Gustavo and Schaff, Charles and Garnett, Roman},
+	year = {2016},
+	pages = {2900--2908}
+}
+
+@article{lorenz_neuroadaptive_2017,
+	title = {Neuroadaptive {Bayesian} {Optimization} and {Hypothesis} {Testing}},
+	volume = {21},
+	issn = {13646613},
+	url = {http://linkinghub.elsevier.com/retrieve/pii/S1364661317300098},
+	doi = {10.1016/j.tics.2017.01.006},
+	language = {en},
+	number = {3},
+	urldate = {2017-05-05},
+	journal = {Trends in Cognitive Sciences},
+	author = {Lorenz, Romy and Hampshire, Adam and Leech, Robert},
+	month = mar,
+	year = {2017},
+	pages = {155--167}
+}
+
+@inproceedings{mendoza_towards_2016,
+	address = {New York, New York, USA},
+	series = {Proceedings of {Machine} {Learning} {Research}},
+	title = {Towards {Automatically}-{Tuned} {Neural} {Networks}},
+	volume = {64},
+	url = {http://proceedings.mlr.press/v64/mendoza_towards_2016.html},
+	abstract = {Recent advances in AutoML have led to automated tools that can compete with machine learning experts on supervised learning tasks. However, current AutoML tools do not yet support modern neural networks effectively. In this work, we present a first version of Auto-Net, which provides automatically-tuned feed-forward neural networks without any human intervention. We report results on datasets from the recent AutoML challenge showing that ensembling Auto-Net with Auto-sklearn often performs better than either alone, and report the first results on winning a competition dataset against human experts with automatically-tuned neural networks.},
+	booktitle = {Proceedings of the {Workshop} on {Automatic} {Machine} {Learning}},
+	publisher = {PMLR},
+	author = {Mendoza, Hector and Klein, Aaron and Feurer, Matthias and Springenberg, Jost Tobias and Hutter, Frank},
+	editor = {Hutter, Frank and Kotthoff, Lars and Vanschoren, Joaquin},
+	month = jun,
+	year = {2016},
+	pages = {58--65}
+}
+
+@inproceedings{hoffman_correlation_2014,
+	address = {Reykjavik, Iceland},
+	series = {Proceedings of {Machine} {Learning} {Research}},
+	title = {On correlation and budget constraints in model-based bandit optimization with application to automatic machine learning},
+	volume = {33},
+	url = {http://proceedings.mlr.press/v33/hoffman14.html},
+	abstract = {We address the problem of finding the maximizer of a nonlinear function that can only be evaluated, subject to noise, at a finite number of query locations. Further, we will assume that there is a constraint on the total number of permitted function evaluations. We introduce a Bayesian approach for this problem and show that it empirically outperforms both the existing frequentist counterpart and other Bayesian optimization methods. The Bayesian approach places emphasis on detailed modelling, including the modelling of correlations among the arms. As a result, it can perform well in situations where the number of arms is much larger than the number of allowed function evaluation, whereas the frequentist counterpart is inapplicable. This feature enables us to develop and deploy practical applications, such as automatic machine learning toolboxes. The paper presents comprehensive comparisons of the proposed approach with many Bayesian and bandit optimization techniques, the first comparison of many of these methods in the literature.},
+	booktitle = {Proceedings of the {Seventeenth} {International} {Conference} on {Artificial} {Intelligence} and {Statistics}},
+	publisher = {PMLR},
+	author = {Hoffman, Matthew and Shahriari, Bobak and Freitas, Nando},
+	editor = {Kaski, Samuel and Corander, Jukka},
+	month = apr,
+	year = {2014},
+	pages = {365--374}
+}
+
+@article{bergstra_random_2012,
+	title = {Random {Search} for {Hyper}-parameter {Optimization}},
+	volume = {13},
+	issn = {1532-4435},
+	url = {http://dl.acm.org/citation.cfm?id=2503308.2188395},
+	abstract = {Grid search and manual search are the most widely used strategies for hyper-parameter optimization. This paper shows empirically and theoretically that randomly chosen trials are more efficient for hyper-parameter optimization than trials on a grid. Empirical evidence comes from a comparison with a large previous study that used grid search and manual search to configure neural networks and deep belief networks. Compared with neural networks configured by a pure grid search, we find that random search over the same domain is able to find models that are as good or better within a small fraction of the computation time. Granting random search the same computational budget, random search finds better models by effectively searching a larger, less promising configuration space. Compared with deep belief networks configured by a thoughtful combination of manual search and grid search, purely random search over the same 32-dimensional configuration space found statistically equal performance on four of seven data sets, and superior performance on one of seven. A Gaussian process analysis of the function from hyper-parameters to validation set performance reveals that for most data sets only a few of the hyper-parameters really matter, but that different hyper-parameters are important on different data sets. This phenomenon makes grid search a poor choice for configuring algorithms for new data sets. Our analysis casts some light on why recent "High Throughput" methods achieve surprising success--they appear to search through a large number of hyper-parameters because most hyper-parameters do not matter much. We anticipate that growing interest in large hierarchical models will place an increasing burden on techniques for hyper-parameter optimization; this work shows that random search is a natural baseline against which to judge progress in the development of adaptive (sequential) hyper-parameter optimization algorithms.},
+	number = {1},
+	urldate = {2017-05-05},
+	journal = {J. Mach. Learn. Res.},
+	author = {Bergstra, James and Bengio, Yoshua},
+	month = feb,
+	year = {2012},
+	keywords = {deep learning, global optimization, model selection, neural networks, response surface modeling},
+	pages = {281--305}
+}
+
+
+@article{bergstra_hyperopt:_2015,
+	title = {Hyperopt: a {Python} library for model selection and hyperparameter optimization},
+	volume = {8},
+	issn = {1749-4699},
+	shorttitle = {Hyperopt},
+	url = {http://stacks.iop.org/1749-4699/8/i=1/a=014008},
+	doi = {10.1088/1749-4699/8/1/014008},
+	abstract = {Sequential model-based optimization (also known as Bayesian optimization) is one of the most efficient methods (per function evaluation) of function minimization. This efficiency makes it appropriate for optimizing the hyperparameters of machine learning algorithms that are slow to train. The Hyperopt library provides algorithms and parallelization infrastructure for performing hyperparameter optimization (model selection) in Python. This paper presents an introductory tutorial on the usage of the Hyperopt library, including the description of search spaces, minimization (in serial and parallel), and the analysis of the results collected in the course of minimization. This paper also gives an overview of Hyperopt-Sklearn, a software project that provides automatic algorithm configuration of the Scikit-learn machine learning library. Following Auto-Weka, we take the view that the choice of classifier and even the choice of preprocessing module can be taken together to represent a single large hyperparameter optimization problem . We use Hyperopt to define a search space that encompasses many standard components (e.g. SVM, RF, KNN, PCA, TFIDF) and common patterns of composing them together. We demonstrate, using search algorithms in Hyperopt and standard benchmarking data sets (MNIST, 20-newsgroups, convex shapes), that searching this space is practical and effective. In particular, we improve on best-known scores for the model space for both MNIST and convex shapes. The paper closes with some discussion of ongoing and future work.},
+	language = {en},
+	number = {1},
+	urldate = {2017-05-06},
+	journal = {Comput. Sci. Disc.},
+	author = {Bergstra, James and Komer, Brent and Eliasmith, Chris and Yamins, Dan and Cox, David D.},
+	year = {2015},
+	pages = {014008},
+	file = {Bergstra et al_2015_Hyperopt.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\F7K5WBSU\\Bergstra et al_2015_Hyperopt.pdf:application/pdf}
+}
+
+@article{arulkumaran2017brief,
+	title={A brief survey of deep reinforcement learning},
+	author={Arulkumaran, Kai and Deisenroth, Marc Peter and Brundage, Miles and Bharath, Anil Anthony},
+	journal={arXiv preprint arXiv:1708.05866},
+	year={2017}
+}
+@article{dewancker_stratified_2016,
+	title = {A {Stratified} {Analysis} of {Bayesian} {Optimization} {Methods}},
+	url = {http://arxiv.org/abs/1603.09441},
+	abstract = {Empirical analysis serves as an important complement to theoretical analysis for studying practical Bayesian optimization. Often empirical insights expose strengths and weaknesses inaccessible to theoretical analysis. We define two metrics for comparing the performance of Bayesian optimization methods and propose a ranking mechanism for summarizing performance within various genres or strata of test functions. These test functions serve to mimic the complexity of hyperparameter optimization problems, the most prominent application of Bayesian optimization, but with a closed form which allows for rapid evaluation and more predictable behavior. This offers a flexible and efficient way to investigate functions with specific properties of interest, such as oscillatory behavior or an optimum on the domain boundary.},
+	urldate = {2017-05-06},
+	journal = {arXiv:1603.09441 [cs, stat]},
+	author = {Dewancker, Ian and McCourt, Michael and Clark, Scott and Hayes, Patrick and Johnson, Alexandra and Ke, George},
+	month = mar,
+	year = {2016},
+	note = {arXiv: 1603.09441},
+	keywords = {Computer Science - Learning, Statistics - Machine Learning},
+	file = {arXiv.org Snapshot:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\UG9725U5\\1603.html:text/html;Dewancker et al_2016_A Stratified Analysis of Bayesian Optimization Methods.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\Z6TXZWBP\\Dewancker et al_2016_A Stratified Analysis of Bayesian Optimization Methods.pdf:application/pdf}
+}
+
+@inproceedings{bergstra_preliminary_2014,
+	title = {Preliminary evaluation of hyperopt algorithms on {HPOLib}},
+	url = {http://ai2-s2-pdfs.s3.amazonaws.com/0da5/366fb41f66827c89144e5a949cc0e7e27d47.pdf},
+	urldate = {2017-05-06},
+	booktitle = {{ICML} workshop on {AutoML}},
+	author = {Bergstra, James and Komer, Brent and Eliasmith, Chris and Warde-Farley, David},
+	year = {2014},
+	file = {366fb41f66827c89144e5a949cc0e7e27d47.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\SWE6E9K9\\366fb41f66827c89144e5a949cc0e7e27d47.pdf:application/pdf}
+}
+
+@article{brochu_tutorial_2010,
+	title = {A {Tutorial} on {Bayesian} {Optimization} of {Expensive} {Cost} {Functions}, with {Application} to {Active} {User} {Modeling} and {Hierarchical} {Reinforcement} {Learning}},
+	url = {http://arxiv.org/abs/1012.2599},
+	abstract = {We present a tutorial on Bayesian optimization, a method of finding the maximum of expensive cost functions. Bayesian optimization employs the Bayesian technique of setting a prior over the objective function and combining it with evidence to get a posterior function. This permits a utility-based selection of the next observation to make on the objective function, which must take into account both exploration (sampling from areas of high uncertainty) and exploitation (sampling areas likely to offer improvement over the current best observation). We also present two detailed extensions of Bayesian optimization, with experiments---active user modelling with preferences, and hierarchical reinforcement learning---and a discussion of the pros and cons of Bayesian optimization based on our experiences.},
+	urldate = {2017-05-06},
+	journal = {arXiv:1012.2599 [cs]},
+	author = {Brochu, Eric and Cora, Vlad M. and de Freitas, Nando},
+	month = dec,
+	year = {2010},
+	note = {arXiv: 1012.2599},
+	keywords = {Computer Science - Learning, G.1.6, G.3, I.2.6},
+	file = {arXiv.org Snapshot:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\4HK79MTN\\1012.html:text/html;Brochu et al_2010_A Tutorial on Bayesian Optimization of Expensive Cost Functions, with.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\9UB8X6VH\\Brochu et al_2010_A Tutorial on Bayesian Optimization of Expensive Cost Functions, with.pdf:application/pdf}
+}
+
+@article{brochu2010tutorial,
+	title={A tutorial on Bayesian optimization of expensive cost functions, with application to active user modeling and hierarchical reinforcement learning},
+	author={Brochu, Eric and Cora, Vlad M and De Freitas, Nando},
+	journal={arXiv preprint arXiv:1012.2599},
+	year={2010}
+}
+
+@incollection{bergstra_algorithms_2011,
+	title = {Algorithms for {Hyper}-{Parameter} {Optimization}},
+	url = {http://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization.pdf},
+	urldate = {2017-05-06},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} 24},
+	publisher = {Curran Associates, Inc.},
+	author = {Bergstra, James S. and Bardenet, Rémi and Bengio, Yoshua and Kégl, Balázs},
+	editor = {Shawe-Taylor, J. and Zemel, R. S. and Bartlett, P. L. and Pereira, F. and Weinberger, K. Q.},
+	year = {2011},
+	pages = {2546--2554},
+	file = {Bergstra et al_2011_Algorithms for Hyper-Parameter Optimization.pdf:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\FBXUITCR\\Bergstra et al_2011_Algorithms for Hyper-Parameter Optimization.pdf:application/pdf;NIPS Snapshort:C\:\\Users\\Victor\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\lc6gmul6.default\\zotero\\storage\\7S3R9GG7\\4443-algorithms-for-hyper-parameter-optimization.html:text/html}
+}
