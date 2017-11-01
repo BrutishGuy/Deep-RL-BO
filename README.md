@@ -1,10 +1,12 @@
 
-# INTSYS Assignment 2
+# Deep Reinforcement Learning with Baysian Optimization (Deep-RL-BO) 
+
+Intelligent Systems (INTSYS) Assignment 2
 
 # Tutorials/Practicals
 
 To start the IPython notebooks simply run start_ipython.sh in the "Tutorials/IPython Notebooks" folder in your Mac OS or Linux shell, and then open one of the notebooks from your browser. Obviously this requires that IPython be installed in your Python distribution. 
-There are some nice walk-throughs on how Bayesian Optimization works in the "Tutorials/Walkthroughs" folder. The one by B. Shariari et al. is excellent for mathematical grounding, and the hyperopt tutorial by j. Bergstra et al. is excellent for getting knee-deep into optimizing scikit-learn machine learning algorithms with TPE
+There are some nice walk-throughs on how Bayesian Optimization works in the "Tutorials/Walkthroughs" folder. The one by B. Shariari et al. is excellent for mathematical grounding, and the hyperopt tutorial by j. Bergstra et al. is excellent for getting knee-deep into optimizing scikit-learn machine learning algorithms with TPE.
 Finally, J. Snoek et al. have lovely tutorial on Bayesian optimization with an application to user modelling and sensor selection. For the practicals, a short description of each practical is as follows:
 
 	
